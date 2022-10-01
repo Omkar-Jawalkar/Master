@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube.com clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <style>
+    .thumbnail{
+      width: 300px;
+      object-fit: cover;
+    }
+    .search-bar{
+      font-family: Roboto,Arial;
+      padding-top:7px;
+      padding-bottom:7px;
+      padding-left: 8px;
+      border-color: #cccccc;
+      border-width: 1px;
+      border-style:solid ;
+      display: block;
+    }
+
+    .search-bar:focus{
+      border-color: red;
+      
+    }
+
+    .title{
+      font-family: Roboto,Arial;
+      width: 240px;
+      font-weight:bold;
+      margin-top: 12px;
+      line-height: 23px;
+      margin-bottom: 0px;
+    }
+    .author{
+      font-family: Roboto,arial;
+      color: gray;
+      margin-bottom: 0px;
+      margin-top: 11px;
+      font-size: 13px;
+    }
+    .views{
+      margin-top: 6px;
+      font-family: Roboto,arial;
+      color: gray;
+      font-size: 13px;
+    }
+    .main-card{
+     margin: 6px;
+     margin-top: 8px;
+    }
+
+    .sub-image{
+      width: 50px;
+      vertical-align: top;
+    }
+    .sub-image-img{
+      object-fit: cover;
+      object-position: left;
+      height: 40px;
+      width: 40px;
+      border-radius: 50px;
+      margin-top: 12px;
+    }
+
+    .hor-div{
+      vertical-align: top;
+      width: 200px;
+    }
+
+    .main-div{
+      display: grid;
+      grid-template-columns:300px  300px 300px;
+      column-gap: 16px;
+      row-gap: 14px;
+    }
+    .sub-section{
+      display: grid;
+      grid-template-columns: 50px 250px;
+    }
+
+
+  </style>
+</head>
+<body> 
+  <input class="search-bar" type="search" placeholder="Search">
+  <div class="main-div"> 
+  <div class="main-card">
+    <div class="card-image"><img class="thumbnail"src="thumbnails/thumbnail-1.webp" alt="sundar"></div>
+  
+    <div class="sub-section">
+      <div class="sub-image">
+        <img class="sub-image-img"src="/thumbnails/channel-1.jpeg" alt="">
+      </div>
+      <div class="hor-div">
+        <div>
+          <p class="title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p >
+        </div>
+
+        <div>
+          <p class="author">
+            Marques Brownlee </p>
+        </div>
+        <div>
+          <p class="views">
+            3.4M views · 6 months ago
+          </p>
+        </div>
+  </div>
+  </div>
+</div>
+
+<div class="main-card">
+  <div class="card-image"><img class="thumbnail"src="thumbnails/thumbnail-2.webp" alt="sundar"></div>
+
+  <div class="sub-section">
+    <div class="sub-image">
+      <img class="sub-image-img"src="/thumbnails/channel-2.jpeg" alt="">
+    </div>
+    <div class="hor-div">
+      <div>
+        <p class="title">
+          
+Try Not To Laugh Challenge #9
+        </p >
+      </div>
+
+      <div>
+        <p class="author">
+          Markiplier </p>
+      </div>
+      <div>
+        <p class="views">
+          19M views · 4 years ago
+        </p>
+      </div>
+</div>
+</div>
+</div>
+
+
+<div class="main-card">
+  <div class="card-image"><img class="thumbnail"src="thumbnails/thumbnail-9.webp" alt="sundar"></div>
+
+  <div class="sub-section">
+    <div class="sub-image">
+      <img class="sub-image-img"src="/thumbnails/channel-9.jpeg" alt="">
+    </div>
+    <div class="hor-div">
+      <div>
+        <p class="title">
+          The SECRET to Super Human STRENGTH
+        </p >
+      </div>
+
+      <div>
+        <p class="author">
+          ThenX</p>
+      </div>
+      <div>
+        <p class="views">
+          20M views · 3 year ago
+        </p>
+      </div>
+</div>
+</div>
+</div>
+
+<div class="main-card">
+  <div class="card-image"><img class="thumbnail"src="thumbnails/thumbnail-4.webp" alt="sundar"></div>
+
+  <div class="sub-section">
+    <div class="sub-image">
+      <img class="sub-image-img"src="/thumbnails/channel-4.jpeg" alt="">
+    </div>
+    <div class="hor-div">
+      <div>
+        <p class="title">
+          The Simplest Math Problem No One Can Solve - Collatz Conjecture
+        </p >
+      </div>
+
+      <div>
+        <p class="author">
+          Veritasium </p>
+      </div>
+      <div>
+        <p class="views">
+          18M views · 4 months ago
+        </p>
+      </div>
+</div>
+</div>
+</div>
+
+<div class="main-card">
+  <div class="card-image"><img class="thumbnail"src="thumbnails/thumbnail-5.webp" alt="sundar"></div>
+
+  <div class="sub-section">
+    <div class="sub-image">
+      <img class="sub-image-img"src="/thumbnails/channel-5.jpeg" alt="">
+    </div>
+    <div class="hor-div">
+      <div>
+        <p class="title">
+          Kadane's Algorithm to Maximum Sum Subarray Problem
+        </p >
+      </div>
+
+      <div>
+        <p class="author">
+          CS Dojo </p>
+      </div>
+      <div>
+        <p class="views">
+          519K views · 5 years ago
+        </p>
+      </div>
+</div>
+</div>
+</div>
+
+<div class="main-card">
+  <div class="card-image"><img class="thumbnail"src="thumbnails/thumbnail-6.webp" alt="sundar"></div>
+
+  <div class="sub-section">
+    <div class="sub-image">
+      <img class="sub-image-img"src="/thumbnails/channel-6.jpeg" alt="">
+    </div>
+    <div class="hor-div">
+      <div>
+        <p class="title">
+          Anything You Can Fit In The Circle I’ll Pay For
+        </p >
+      </div>
+
+      <div>
+        <p class="author">
+          MrBeast </p>
+      </div>
+      <div>
+        <p class="views">
+          141M views · 1 year ago
+        </p>
+      </div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</body>
+</html>

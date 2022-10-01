@@ -1,0 +1,126 @@
+.cat{
+  width: 200px;
+  border-radius: 10px;
+  margin: 20px;
+  vertical-align: top;
+}
+
+.cat2{
+  width:130px;
+  height: 130px;
+  border: 2px;
+  object-fit: cover;
+  object-position: left;
+  vertical-align: top;
+  margin: 20px;
+}
+
+.cat3{
+  width:50px;
+  height: 50px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: left;
+  vertical-align: center;
+  margin-top: 20px;
+}
+
+.mux{
+  margin: 20px;
+}
+
+
+.s1{
+  padding-top: 8px;
+  padding-bottom: 8px; 
+  padding-left: 11px;
+  border-radius: 7px;
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.s1:active{
+  border-color: red;
+}
+
+
+.s2{
+  width: 400px;
+  padding-top: 8px;
+  padding-bottom: 8px; 
+  padding-left: 11px;
+  border-radius: 17px;
+  border: none;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.linkedin-text{
+  font-family: Arial;
+  color: grey;
+  font-size: x-small;
+}
+
+.linked-email{
+  margin-top: 2px;
+  width: 245px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 6px;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.linkedin-button{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 90px;
+  padding-right: 90px;
+  background-color: rgb(0, 115, 255);
+  border:none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+
+}
+
+
+.tweet{
+  background-color: rgb(0, 149, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  vertical-align: middle;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: box-shadow 0.4s;
+  margin-bottom: 35px;
+  margin-right: 20px;
+}
+
+.tweet:hover{
+box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.15);
+
+
+}
+.tweet:active{
+opacity: 0.7;
+}
+
+.span1{
+  color: gray;
+  font-family: Arial;
+  border-width:  3px; 
+  border-color: yellow;
+  vertical-align: top;
+  margin-top: 39px;
+  padding-left: 8px;
+  padding-right:140px;
+  display:inline-block ;
+}

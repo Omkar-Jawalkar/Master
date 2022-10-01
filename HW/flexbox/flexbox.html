@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flexbox-1{
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+    }
+    .flexbox-3{
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+     justify-content: space-between;
+      border: 1px;
+      border-style: solid;
+      border-color: grey;
+    }
+    .flexbox-4{
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+      height: 60px;
+      justify-content: space-between;
+      border: 1px;
+      border-style: solid;
+      border-color: grey;
+      align-items: center;
+    }
+
+
+    
+  </style>
+
+</head>
+<body>
+  <div class="flexbox-1">
+    <div style="background-color: lightblue;
+    width:200px;
+    ">
+
+
+      200px
+    </div>
+    <div style="background-color: lightpink; width:75px;">
+      75px
+    </div>
+  </div>
+
+  <div class="flexbox-1">
+    <div style="background-color: lightblue;
+    width:50px;
+    ">
+
+
+      item1
+    </div>
+    <div style="background-color: lightpink; flex:1;">
+      item2
+    </div>
+
+    <div style="background-color: lightblue;
+    width:75px;
+    ">
+
+
+     item3
+    </div>
+  </div>
+
+  
+  <div class="flexbox-3">
+    <div style="background-color: lightpink;
+    ">
+      item1
+    </div>
+    <div style="background-color: lightpink; ">
+      item2
+    </div>
+
+    <div style="background-color: lightpink;
+    ">
+     item3
+    </div>
+    <div style="background-color: lightpink;
+    ">
+     item4
+    </div>
+  </div>
+
+  <div class="flexbox-4">
+    <div style="background-color: lightpink;
+    ">
+      item1
+    </div>
+    <div style="background-color: lightpink; ">
+      item2
+    </div>
+  </div>
+
+
+
+</body>
+</html>
