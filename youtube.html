@@ -83,12 +83,46 @@
       display: grid;
       grid-template-columns: 50px 250px;
     }
+    .header{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    
+      height: 50px;
+    }
 
+    .left-section{
+      width: 180px;
+      margin-right: 80px;
+      background-color: lightblue;
+    }
+
+    .middle-section{
+      background-color: lightpink;
+      flex: 1;
+    }
+
+    .right-section{
+      margin-left: 70px;
+      width: 250px;
+      background-color: lightblue;
+    }
 
   </style>
 </head>
-<body> 
-  <input class="search-bar" type="search" placeholder="Search">
+<body style="margin: 0;"> 
+
+  <div class="header">
+    <div class="left-section"> Left Section</div>
+    <div class="middle-section">
+      <input class="search-bar" type="search" placeholder="Search">
+
+    </div>
+    <div class="right-section">
+        Right Section
+    </div>
+  
+  </div>
   <div class="main-div"> 
   <div class="main-card">
     <div class="card-image"><img class="thumbnail"src="thumbnails/thumbnail-1.webp" alt="sundar"></div>
