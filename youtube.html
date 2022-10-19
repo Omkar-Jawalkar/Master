@@ -74,7 +74,7 @@
 
     .main-div{
       display: grid;
-      grid-template-columns:300px  300px 300px;
+      grid-template-columns:1fr  1fr 1fr;
       column-gap: 16px;
       row-gap: 14px;
     }
@@ -178,14 +178,13 @@
       background-color: white;
       top: 49px;
       width: 60px;
-
       left: 0;
+      z-index: 2;
       
     }
 
 
     .sub-div{
-
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -193,6 +192,11 @@
       margin-top: 10px;
       margin-bottom: 1px;
       padding: 10px;
+    }
+
+    .sub-div:hover{
+      background-color: #cccccc;
+      cursor: pointer;
     }
 
     .sidebar-img{
@@ -230,7 +234,6 @@
       position: absolute;
       top: 0px;
       right:0px;
-      
       border:solid;
       border-color: white;
       border-width: 1px;
@@ -250,7 +253,7 @@
 
   </style>
 </head>
-<body style = "margin:0; padding-left:80px; padding-top:72px; padding-bottom:3000px;"> 
+<body style = " background-color:#f8f8f8; padding-left:80px; padding-top:72px; padding-bottom:3000px;"> 
 
   <div class="header">
     <div class="left-section"> 
@@ -315,40 +318,40 @@
   </div>
   
   <div class="main-div"> 
-  <div class="main-card">
-    <div class="card-image"><img class="thumbnail"src="thumbnails/thumbnail-1.webp" alt="sundar">
-      <div class="timing">14:20</div>
-    
-    </div>
-  
-    <div class="sub-section">
-      <div class="sub-image">
-        <img class="sub-image-img"src="/thumbnails/channel-1.jpeg" alt="">
-       
-      </div>
-      <div class="hor-div">
-        <div>
-          <p class="title">
-            Talking Tech and AI with Google CEO Sundar Pichai!
-          </p >
+      <div class="main-card">
+        <div class="card-image"><img class="thumbnail"src="thumbnails/thumbnail-1.webp" alt="sundar">
+          <div class="timing">14:20</div>
+        
         </div>
+      
+        <div class="sub-section">
+          <div class="sub-image">
+            <img class="sub-image-img"src="/thumbnails/channel-1.jpeg" alt="">
+          
+          </div>
+          <div class="hor-div">
+            <div>
+              <p class="title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p >
+            </div>
 
-        <div>
-          <p class="author">
-            Marques Brownlee </p>
-        </div>
-        <div>
-          <p class="views">
-            3.4M views · 6 months ago
-          </p>
-        </div>
-  </div>
-  </div>
-</div>
+            <div>
+              <p class="author">
+                Marques Brownlee </p>
+            </div>
+            <div>
+              <p class="views">
+                3.4M views · 6 months ago
+              </p>
+            </div>
+      </div>
+      </div>
+    </div>
 
 <div class="main-card">
   <div class="card-image">
-    <img class="thumbnail"src="thumbnails/thumbnail-2.webp" alt="sundar">
+    <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="sundar">
     <div class="timing">8:22</div>
   </div>
 
